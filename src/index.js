@@ -93,7 +93,7 @@ addBtn.addEventListener('click', () => {
     toyForm.style.display = 'none'
   }
 })
-// :)
+
 // start by getting all toys
 
 getToys().then(toys => {
@@ -102,3 +102,4 @@ getToys().then(toys => {
     renderToys(toy)
   })
 })
+// :)
